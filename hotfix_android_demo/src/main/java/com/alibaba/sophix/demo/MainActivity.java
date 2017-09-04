@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, ResTestActivity.class));
                 break;
             case R.id.btn_download:
-                SophixManager.getInstance().queryAndLoadNewPatch();
+                SophixManager.getInstance().queryAndLoadNewPatch();//拉取补丁
                 break;
             case R.id.btn_test:
                 DexFixDemo.test_normal(MainActivity.this);

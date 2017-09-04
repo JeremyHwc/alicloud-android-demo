@@ -77,8 +77,8 @@ mpush_android_demo已经完成了移动推送SDK的集成工作，但我们还�
 
 ```xml
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
 
     defaultConfig {
         applicationId "********" // 填写所创建App的包名
